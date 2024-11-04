@@ -1,0 +1,12 @@
+p{
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+}
+span{
+height: 50px;
+width: 160px;
+padding: 30px;
+border: 2px red solid;
+background-color: green;
+}

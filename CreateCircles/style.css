@@ -1,0 +1,22 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+#wrapper{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+
+button{
+    padding: 10px;
+    margin: 15px;
+    opacity: 50%;
+    
+    
+}

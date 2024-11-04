@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Pokemon</title>
+</head>
+<body>
+
+    <div id="main-container">
+        <h1>Pokemon Universe</h1>
+        <div id="wrapper">
+            <div id="filter-search-wrapper">
+                <select id="select-type" >
+                    <option  selected>All</option>
+                    <option >Grass</option>
+                    <option >Flying</option>
+                    <option >Poision</option>
+                    <option >Fire</option>
+                    <option >Water</option>
+                </select>
+                <input  type="text" placeholder="search using name"/>
+            </div>
+            <div id="list-wrapper"></div>
+        </div>
+        <div id="load-more-wrapper">
+            <button>Load More</button>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
